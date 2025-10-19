@@ -1,6 +1,7 @@
 const readline = require('readline-sync');
 
 let studentName = readline.question("What is your name? ");
+console.log("Hello, " + studentName + ".");
 
 let questionOne = readline.question("What is an example of explicit type conversion? ");
 let questionTwo = readline.question("What is implicit type conversion? ");
